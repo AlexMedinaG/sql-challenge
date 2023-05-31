@@ -15,7 +15,7 @@ For the primary keys, verify that the column is unique. Otherwise, create a comp
 Be sure to create the tables in the correct order to handle the foreign keys.
 Import each CSV file into its corresponding SQL table.
 
-The code for the SQL is provided below and can be found on employees_db_engineering.sql:
+### The code for the SQL is provided below and can be found on employees_db_engineering.sql:
 CREATE TABLE "departments" (
     "dept_no" VARCHAR(4)   NOT NULL,
     "dept_name" VARCHAR(30)   NOT NULL,
@@ -89,7 +89,7 @@ List each employee in the Sales and Development departments, including their emp
 List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
 
-The code for the SQL is provided below and can be found on employees_db_analysis.sql:
+### The code for the SQL is provided below and can be found on employees_db_analysis.sql:
 --List the employee number, last name, first name, sex, and salary of each employee (2 points)
 SELECT
 	e.emp_no,
